@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+    padding: 0.5em;
+}
+
+div {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.uitleg {
+    border: black dotted 4px;
+    background-color: white;
+    margin: 1em;
+}
+.container {
+display: flex;
+justify-content: center;
+}
+
+.tweeknoppen {
+    display: flex;
+    justify-content: space-around;
+}
+
+#dansen {
+    font-size: 1.5em;
+    border-radius: 10em;
+    border: white solid 2px;
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+#aardbei {
+    font-size: 1.5em;
+    border-radius: 10em;
+    border: white solid 2px;
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+#aardbei:hover {
+    border: red solid 2px;
+}
+
+#dansen:hover {
+    border: red solid 2px;
+}
+
+#teller {
+    border: black solid 2px;
+    background-color: white;
+    padding: 1em 0em 1em 0em;
+    margin: 1em 20em 1em 20em;
+}
+
+.klikker {
+    border: black solid 1px;
+    border-radius: 10em;
+    padding: 1em;
+    margin: 1em 0em 0em 0em;
+    background-color: bisque;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.klikker:hover {
+    background-color: bisque;
+    border: red solid 3px;
+    font-style: italic;
+}
+
